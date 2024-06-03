@@ -13,7 +13,7 @@ export default defineConfig({
       'meta',
       { name: 'keywords', content: 'unibest, uniapp, uni-app, vue, vue3, vite,template, typescript, ts' },
     ],
-    ['link', { rel: 'icon', href: '/unibest-docs/favicon.ico' }], // 这里要加上 base 前缀，否则资源访问不到
+    ['link', { rel: 'icon', href: '/frontend-knowledge/favicon.ico' }], // 这里要加上 base 前缀，否则资源访问不到
     [
       'meta',
       {
