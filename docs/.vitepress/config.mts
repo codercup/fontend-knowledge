@@ -112,6 +112,7 @@ export default defineConfig({
         base: '/qiankun/',
         items: [
           { text: 'Qiankun 原理', link: 'Qiankun 原理' },
+          { text: 'Qiankun 沙箱原理', link: 'Qiankun 沙箱原理' },
         ],
       },
       // {
