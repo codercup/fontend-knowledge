@@ -100,6 +100,7 @@ export default defineConfig({
         base: '/vue/',
         items: [
           { text: 'Vue2 和 Vue3 的区别', link: 'Vue2 和 Vue3 的区别' },
+          { text: 'Vue2 和 Vue3 中双向绑定的原理', link: 'Vue2 和 Vue3 中双向绑定的原理' },
         ],
       },
       // {
