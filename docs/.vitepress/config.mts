@@ -104,6 +104,7 @@ export default defineConfig({
           { text: 'Vue2 diff 算法', link: 'Vue2 diff 算法' },
           { text: 'Vue3 diff 算法', link: 'Vue3 diff 算法' },
           { text: 'Vue3 对 Vue2 有哪些优化', link: 'Vue3 对 Vue2 有哪些优化' },
+          { text: 'Vue 和 React 区别', link: 'Vue 和 React 区别' },
         ],
       },
       // {
