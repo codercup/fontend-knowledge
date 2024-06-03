@@ -107,6 +107,13 @@ export default defineConfig({
           { text: 'Vue 和 React 区别', link: 'Vue 和 React 区别' },
         ],
       },
+      {
+        text: 'Qiankun',
+        base: '/qiankun/',
+        items: [
+          { text: 'Qiankun 原理', link: 'Qiankun 原理' },
+        ],
+      },
       // {
       //   text: '社交',
       //   base: '/advanced/',
