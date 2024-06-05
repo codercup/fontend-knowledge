@@ -38,7 +38,7 @@ dp[j] += dp[j - nums[i]]
 dp[j] = max(dp[j], dp[j - weight[i]] + value[i])
 ```
 
-- 4. 问装满背包所有物品的最小个数：
+- 4. 问装满背包所需物品的最小个数（物品数量无限，完全背包）：
 
 ```js
 dp[j] = min(dp[j], dp[j - coins[i]] + 1)
