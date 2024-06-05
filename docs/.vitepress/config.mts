@@ -88,11 +88,11 @@ export default defineConfig({
       //   text: '🥤 打赏',
       //   link: '/advanced/rewards/rewards',
       // },
-      // {
-      //   text: '相关链接',
-      //   link: '/other/links/links',
-      //   activeMatch: '/other',
-      // },
+      {
+        text: '背包问题',
+        link: '/knapsack/knapsack',
+        activeMatch: '/knapsack',
+      },
     ],
     sidebar: [
       {
