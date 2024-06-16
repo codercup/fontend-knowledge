@@ -31,3 +31,27 @@
 支持单元格内容自定义渲染（支持作用域插槽、tsx 语法、h 函数）
 
 配合 TreeFilter、SelectFilter 组件使用更佳（项目中有使用示例）
+
+## 代码
+
+GiTable:
+
+```vue
+<template>
+  <a-table ref="tableRef" v-bind="{ ...attrs, columns: _columns }">
+    <template v-for="key in Object.keys(slots)" :key="key" #[key]="scoped">
+      <slot :key="key" :name="key" v-bind="scoped"></slot>
+    </template>
+  </a-table>
+</template>
+
+<script setup lang="ts">
+defineOptions({ name: 'GiTable', inheritAttrs: false })
+const attrs = useAttrs()
+const slots = useSlots()
+const _columns = computed(() => {
+  // 通过  attrs.columns 计算得来
+}) // 计算排序后过滤后的值
+const tableRef = ref<TableInstance | null>(null)
+</script>
+```
